@@ -39,7 +39,7 @@ a {
 }
 
 
-.genesis {
+#genesis {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,42 +90,58 @@ hr {
 
 /* ................................FOOTER.................................... */
 
+/* Footer Styles */
 .footer {
     background-color: rgb(98, 98, 238);
     display: flex;
+    justify-content: flex-start; /* Align items to the left */
     align-items: center;
-    justify-content: flex-start;
+    padding: 20px;
 }
 
 .foot {
-    color: #fff;
+    color: white;
+    margin: 0 30px; /* Add margin to separate from the images */
     font-family: "Metal Mania", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 2rem;
-    margin: 0 30px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: rgb(98, 98, 238);
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center;
+    padding: 20px;
+}
+
+.foot {
+    color: white;
+    margin: 0 30px; /* Add margin to separate from the images */
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .link {
     display: flex;
-    gap: 15px;
-    margin-left: auto;
+    gap: 20px; /* Space between icons */
+    margin-left: auto; /* Push the link section to the right */
 }
 
 .list {
     list-style: none;
-    padding: 15px 30px;
-    
-    
+    margin: 0;
 }
 
 .image {
-    width: 40px;
-    height: 40px;
-    border-radius: 3px;
+    height: 35px;
+    width: 35px;
+    border-radius: 4px;
     cursor: pointer;
+   
 }
-
 
 
 
