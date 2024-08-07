@@ -39,7 +39,7 @@ a {
 }
 
 
-#genesis {
+.genesis {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,22 +90,6 @@ hr {
 
 /* ................................FOOTER.................................... */
 
-/* Footer Styles */
-.footer {
-    background-color: rgb(98, 98, 238);
-    display: flex;
-    justify-content: flex-start; /* Align items to the left */
-    align-items: center;
-    padding: 20px;
-}
-
-.foot {
-    color: white;
-    margin: 0 30px; /* Add margin to separate from the images */
-    font-family: "Metal Mania", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
 
 /* Footer Styles */
 .footer {
