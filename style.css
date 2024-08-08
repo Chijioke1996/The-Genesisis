@@ -127,6 +127,28 @@ hr {
    
 }
 
+@media (width < 500px) {
+    .guitar1 {
+        width: 90%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        border-radius: 4px; 
+        float: none;
+        
+    
+    }
+
+    body {
+        background-color: rgb(173, 167, 167);
+    }
+
+      
+    
+}
+
+
 
 
 
